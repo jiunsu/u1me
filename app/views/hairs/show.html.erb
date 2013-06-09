@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @hair.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @hair.description %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @hair.image_url %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @hair.price %>
+</p>
+
+
+<%= link_to 'Edit', edit_hair_path(@hair) %> |
+<%= link_to 'Back', hairs_path %>
